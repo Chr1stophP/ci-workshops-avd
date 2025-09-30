@@ -19,7 +19,7 @@ jobs:
       - name: Debig Workspace
         run: |
           pwd
-          ls -l ../
+          ls -la labs/L3LS_EVPN
 
       - name: Checkout code ✅
         uses: actions/checkout@v4
