@@ -55,4 +55,4 @@ jobs:
       - name: Build and deploy site2
         run: make build-site-2 deploy-site-2
         working-directory: labs/L3LS_EVPN/
-        if: steps.filter-site2.outputs.workflows == 'true
+        if: steps.filter-site2.outputs.workflows == 'true'
