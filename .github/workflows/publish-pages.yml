@@ -22,7 +22,7 @@ jobs:
       - name: Debig Workspace
         run: |
           pwd
-          ls -la labs/L3LS_EVPN/sites/site1
+          ls -la labs/L3LS_EVPN/sites/site_1
 
       - name: move AVD docs ✂
         run: |
