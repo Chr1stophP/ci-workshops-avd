@@ -12,3 +12,6 @@ The instructions to build and deploy this L2LS Multi-site topology are located i
 
 ## Slides
 https://ankudinov.github.io/avd-workshop-may-2025/slides/avd-workshop.html#1
+
+## Github Pages
+https://chr1stophp.github.io/ci-workshops-avd/
