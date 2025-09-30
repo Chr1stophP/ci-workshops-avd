@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code ✅
         uses: actions/checkout@v4
 
-      - name: Debig Workspace
+      - name: Debug Workspace
         run: |
           pwd
           ls -la labs/L3LS_EVPN/sites/site_1
