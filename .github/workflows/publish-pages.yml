@@ -22,6 +22,7 @@ jobs:
 
       - name: move AVD docs ✂
         run: |
+          pwd
           mkdir -p docs/site_1
           mkdir -p docs/site_2
           cp -r labs/L3LS_EVPN/sites/site_1/documentation/* docs/site_1
