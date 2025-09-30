@@ -16,13 +16,16 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
+      - name: Debig Workspace
+        run: |
+          pwd
+          ls -l labs/L3LS_EVPN/sites/site_1/documentation/
 
       - name: Checkout code ✅
         uses: actions/checkout@v4
 
       - name: move AVD docs ✂
         run: |
-          pwd
           mkdir -p docs/site_1
           mkdir -p docs/site_2
           cp -r labs/L3LS_EVPN/sites/site_1/documentation/* docs/site_1
