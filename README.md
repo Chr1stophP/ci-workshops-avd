@@ -9,3 +9,6 @@ In this example, the ATD lab is used to create the L2LS Dual Data Center topolog
 ## **Lab Instructions**
 
 The instructions to build and deploy this L2LS Multi-site topology are located in the Lab Guide **[here](https://aristanetworks.github.io/avd-workshops/avd-lab-guide/)**.
+
+## Slides
+https://ankudinov.github.io/avd-workshop-may-2025/slides/avd-workshop.html#1
